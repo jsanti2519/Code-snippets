@@ -19,7 +19,7 @@ int main() {
    newcol:c++;
    if(c == 3) goto newrow;
 
-   random:a[r][c] = (rand() % 8) + 1;
+   random:a[r][c] = (rand() % 9) + 1;
    if(r == 0 && c == 0) goto newcol;
 
    //test for repetition
