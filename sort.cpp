@@ -13,7 +13,7 @@ bool descending(int a, int b) {
 
 void sort(int a[], int size, level f) {
   bool flag = true;
-  int i, j;
+  int i, j, temp;
   for(i = 1; i <= size && flag; i++){
     flag = false; //assuming everything is sorted correctly
     for(j = 0; j < size - 1; j++)
@@ -34,5 +34,4 @@ int main() {
   for(int i = 0; i < 5; i++) cout << a[i] << " ";
   
   return EXIT_SUCCESS;
-}
 }
