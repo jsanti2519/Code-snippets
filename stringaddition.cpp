@@ -33,7 +33,7 @@ string add(string a, string b) {
     }
   }
 
-  //just in case the left most digit is greater than 10...
+  //just in case the left most digit is greater than 9...
   cNum[0] = aNum[0] + bNum[0];
 
   //convert back to string by concatenation
